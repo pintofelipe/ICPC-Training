@@ -22,7 +22,7 @@ public:
 
             else
             {
-                if (st.empty()) return false; // no hay que cerrar
+                if (st.empty()) return false;
 
                 char top = st.top();
                 st.pop();
@@ -45,10 +45,10 @@ int main()
 
     Solution sol;
 
-    string s = "[(])";
+    string s = "[";
 
-    bool result = sol.isValid(s);
-    cout << boolalpha << sol.isValid(s);  // true
+
+    cout<<boolalpha<<sol.isValid(s);
 
 
     return 0;
