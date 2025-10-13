@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/andre/Documents/ICPC-Training/neetcode.io/stack",
-      "program": "c:/Users/andre/Documents/ICPC-Training/neetcode.io/stack/build/Debug/outDebug",
+      "cwd": "c:/Users/Andrey/Documents/ICPC-Training/rpc/activity122025",
+      "program": "c:/Users/Andrey/Documents/ICPC-Training/rpc/activity122025/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
