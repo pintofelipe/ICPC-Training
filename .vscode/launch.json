@@ -8,32 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-<<<<<<< HEAD
-      "cwd": "c:/Users/andre/Documents/ICPC-Training/neetcode.io/twoPointers",
-      "program": "c:/Users/andre/Documents/ICPC-Training/neetcode.io/twoPointers/build/Debug/outDebug",
-=======
-      "cwd": "c:/Users/Andrey/Documents/ICPC-Training/rpc/activity122025",
-      "program": "c:/Users/Andrey/Documents/ICPC-Training/rpc/activity122025/build/Debug/outDebug",
->>>>>>> ece838550ec385cc4bb531ffe77ae64e2bb0db47
-      "MIMode": "gdb",
-      "miDebuggerPath": "gdb",
-      "setupCommands": [
-        {
-          "description": "Enable pretty-printing for gdb",
-          "text": "-enable-pretty-printing",
-          "ignoreFailures": true
-        }
-      ]
-    },
-    {
-      "name": "C/C++ Runner: Debug Session",
-      "type": "cppdbg",
-      "request": "launch",
-      "args": [],
-      "stopAtEntry": false,
-      "externalConsole": true,
-      "cwd": "c:/Users/andre/Documents/ICPC-Training/exercises",
-      "program": "c:/Users/andre/Documents/ICPC-Training/exercises/build/Debug/outDebug",
+      "cwd": "c:/Users/andre/Documents/ICPC-Training/codeforce",
+      "program": "c:/Users/andre/Documents/ICPC-Training/codeforce/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
