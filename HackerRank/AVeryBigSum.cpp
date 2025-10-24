@@ -1,116 +1,52 @@
 #include <bits/stdc++.h>
-
 using namespace std;
 
-string ltrim(const string &);         // limpiar datos para parsear #s
-string rtrim(const string &);         // por referencia
-vector<string> split(const string &); // array dinamico de cadenas
-
-/*
- * Complete the 'aVeryBigSum' function below.
- *
- * The function is expected to return a LONG_INTEGER.
- * The function accepts LONG_INTEGER_ARRAY ar as parameter.
- */
-
-long aVeryBigSum(vector<long> ar)
-{
-
-    long long s = 0;
-
-    for (auto num : ar)
-    {
-
-        s += num;
-    }
-
-    return s;
+string ltrim(const string &str) {
+    auto it = find_if(str.begin(), str.end(), [](unsigned char ch){ return !isspace(ch); });
+    return string(it, str.end());
 }
 
-int main()
-{
-    ios_base::sync_with_stdio(0);
-    cin.tie(NULL);
-
-    string ar_count_temp; // primera linea de input
-
-    getline(cin, ar_count_temp);
-
-    int ar_count = stoi(ltrim(rtrim(ar_count_temp)));
-
-    string ar_temp_temp;
-
-    getline(cin, ar_temp_temp);
-
-    vector<string> ar_temp = split(rtrim(ar_temp_temp));
-
-    vector<long> ar(ar_count); // inicializar un vector con size ar_count inicializado en 0
-
-    for (int i = 0; i < ar_count; i++)
-    {
-
-        long ar_item = stol(ar_temp[i]);
-
-        ar[i] = ar_item;
-    }
-
-    long result = aVeryBigSum(ar);
-
-    cout << result << "\n";
-
-    return 0;
+string rtrim(const string &str) {
+    auto it = find_if(str.rbegin(), str.rend(), [](unsigned char ch){ return !isspace(ch); });
+    return string(str.begin(), it.base());
 }
 
-string ltrim(const string &str)
-{
-    string s(str);
-
-    s.erase(
-        s.begin(),
-        find_if(s.begin(), s.end(), not1(ptr_fun<int, int>(isspace))));
-
-    return s;
-}
-
-string rtrim(const string &str)
-{
-    string s(str);
-
-    s.erase(
-    find_if(s.rbegin(), s.rend(), not1(ptr_fun<int,int>
-    (isspace))).base(),
-    s.end()
-    );
-
-    return s;
-}
-
-
-vector<string> split(const string &str){
-
+vector<string> split(const string &str) {
     vector<string> tokens;
-
-    string::size_type start = 0;
-    string::size_type end = 0;
-
-    while((end = str.find(" ", start)) != string::npos){
-        tokens.push_back(str.substr(start, end - start));
-
+    string::size_type start = 0, end = 0;
+    while ((end = str.find(' ', start)) != string::npos) {
+        if (end > start) tokens.push_back(str.substr(start, end - start));
         start = end + 1;
     }
-
-    tokens.push_back(str.substr(start));
-
+    if (start < str.size()) tokens.push_back(str.substr(start));
     return tokens;
 }
 
+long long aVeryBigSum(const vector<long long> &ar) {
+    long long s = 0;
+    for (auto num : ar) s += num;
+    return s;
+}
 
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
 
+    string ar_count_temp;
+    if (!getline(cin, ar_count_temp)) return 0;
+    int ar_count = stoi(ltrim(rtrim(ar_count_temp)));
 
+    string ar_temp_temp;
+    getline(cin, ar_temp_temp);
 
+    vector<string> ar_temp = split(rtrim(ar_temp_temp));
+    vector<long long> ar(ar_count);
 
+    for (int i = 0; i < ar_count; ++i) {
+        ar[i] = stoll(ar_temp[i]);
+    }
 
-
-
-
-
+    long long result = aVeryBigSum(ar);
+    cout << result << '\n';
+    return 0;
+}
