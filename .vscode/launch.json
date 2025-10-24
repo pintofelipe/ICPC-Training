@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/andre/Documents/ICPC-Training/HackerRank",
-      "program": "c:/Users/andre/Documents/ICPC-Training/HackerRank/build/Debug/outDebug",
+      "cwd": "c:/Users/andre/Documents/ICPC-Training/codeforce",
+      "program": "c:/Users/andre/Documents/ICPC-Training/codeforce/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
