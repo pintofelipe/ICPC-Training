@@ -15,8 +15,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/andre/Documents/ICPC-Training/ICPC/2025REGIONAL",
-      "program": "c:/Users/andre/Documents/ICPC-Training/ICPC/2025REGIONAL/build/Debug/outDebug",
+      "cwd": "c:/Users/andre/Documents/ICPC-Training/codeforce",
+      "program": "c:/Users/andre/Documents/ICPC-Training/codeforce/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
