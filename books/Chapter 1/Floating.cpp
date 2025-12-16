@@ -12,8 +12,5 @@ int main(){
     printf("%.20f\n", x);
 
 
-
-
-
     return 0;
 }
