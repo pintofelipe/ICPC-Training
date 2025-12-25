@@ -15,8 +15,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/andre/Documents/ICPC-Training/books/Chapter2",
-      "program": "c:/Users/andre/Documents/ICPC-Training/books/Chapter2/build/Debug/outDebug",
+      "cwd": "c:/Users/andre/Documents/ICPC-Training/books/AnttiLaaksonen/Chapter2",
+      "program": "c:/Users/andre/Documents/ICPC-Training/books/AnttiLaaksonen/Chapter2/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
