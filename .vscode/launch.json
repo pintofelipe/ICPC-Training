@@ -15,8 +15,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/andre/Documents/ICPC-Training/books/HugoHumbertoMorales/Chapter1/examples",
-      "program": "c:/Users/andre/Documents/ICPC-Training/books/HugoHumbertoMorales/Chapter1/examples/build/Debug/outDebug",
+      "cwd": "c:/Users/andre/Documents/ICPC-Training/books/HugoHumbertoMorales/Chapter1/retos",
+      "program": "c:/Users/andre/Documents/ICPC-Training/books/HugoHumbertoMorales/Chapter1/retos/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
