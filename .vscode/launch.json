@@ -15,8 +15,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/andre/Documents/ICPC-Training/books/HugoHumbertoMorales/Chapter1/retos",
-      "program": "c:/Users/andre/Documents/ICPC-Training/books/HugoHumbertoMorales/Chapter1/retos/build/Debug/outDebug",
+      "cwd": "c:/Users/andre/Documents/ICPC-Training/books/AnttiLaaksonen/chapter3",
+      "program": "c:/Users/andre/Documents/ICPC-Training/books/AnttiLaaksonen/chapter3/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
