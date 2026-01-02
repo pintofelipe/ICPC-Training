@@ -15,8 +15,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/andre/Documents/ICPC-Training/books/AnttiLaaksonen/chapter3",
-      "program": "c:/Users/andre/Documents/ICPC-Training/books/AnttiLaaksonen/chapter3/build/Debug/outDebug",
+      "cwd": "c:/Users/andre/Desktop/ICPC-Training/codeforce",
+      "program": "c:/Users/andre/Desktop/ICPC-Training/codeforce/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
